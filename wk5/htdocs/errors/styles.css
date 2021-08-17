@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    animation: colorCarosel 20s infinite;
+    font-family: 'Creepster', cursive;
+    font-size: xx-large;
+    border: solid thick black;
+    border-radius: 5px;
+}
+
+@keyframes colorCarosel {
+
+    100% {
+        background-color: black;
+        color:whitesmoke;
+        border: solid thick white;
+    }
+
+}
+
+
+
+.title {
+    font-size: 65px;
+}
+
+.title:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+img {
+    border: solid thick black;
+    border-radius: 15px;
+    box-shadow: 6px 8px 10px grey;
+}
+
+img:hover {
+    border:solid thick white;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+footer{
+    padding: 50px;
+}
+
+h4{
+    text-decoration: underline red;
+}
+
+.fa {
+    color:green;
+    border: solid thin black;
+    border-radius: 50px;
+    padding:15px;
+    box-shadow: 2px 3px 4px gray;
+}
+
+.fa:hover{
+    color:red;
+    border:none;
+    box-shadow: 4px 5px 6px gray;
+}

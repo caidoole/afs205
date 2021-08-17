@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+img {
+    border: solid thick black;
+    width: 800px;
+    box-shadow: 6px 8px 10px black;
+}
+
+.projectImage{
+    width:600px;
+    height:600px;
+}
+p{
+    padding:50px;
+}
+
+ul{
+    text-align: left;
+    font-size: 32px;
+}
