@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    background-image: url("/images/peachwash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin-bottom: 25px;
+}
+
+.gif {
+    margin-top: 25px;
+    border-radius: 35px;
+    box-shadow: 15px 20px 25px whitesmoke;
+}
